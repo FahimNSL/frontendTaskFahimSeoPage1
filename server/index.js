@@ -21,7 +21,7 @@ mongoose.connect('mongodb+srv://fahim:JDJ0DJrqGtafMFPx@cluster0.oj9ek.mongodb.ne
 
 
 // Middleware
-app.use(cors({ origin: 'https://frontend-task-fahim-seo-page1-9ndu-m2mv140fs.vercel.app/' })); 
+app.use(cors({ origin: 'https://frontend-task-fahim-seo-page1-9ndu-m2mv140fs.vercel.app/' }));  // Explicitly specify the frontend origin
 app.use(express.json());
 
 // Configure upload path
