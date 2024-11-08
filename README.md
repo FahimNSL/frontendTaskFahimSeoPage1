@@ -38,7 +38,7 @@ This project is divided into three parts:
 
 ---
 
-## Setup Instructions
+## Setup and Run Instructions
 
 ### 1. Clone the Repository
 
@@ -62,16 +62,6 @@ Ensure you have Node.js version 22 installed. Verify the installation by running
    node -v
 ```
 
-Start the NodeJS server:
-
-```bash
-npm run dev
-```
-### 3. Setup Backend (NodeJS )
-
-
-#### Start the NodeJS server
-
 Navigate to the `server` folder inside project and install the dependencies:
 
 ```bash
@@ -88,6 +78,9 @@ Start the NodeJS server:
 ```bash
 node index.js
 ```
+
+
+
 
 
 
