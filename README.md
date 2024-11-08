@@ -42,7 +42,7 @@ This project is divided into three parts:
 
 ### Clone the Repository
 
-First, clone this repository to your local machine:
+##### First, clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/FahimNSL/frontendTaskFahimSeoPage1.git
@@ -51,29 +51,28 @@ git clone https://github.com/FahimNSL/frontendTaskFahimSeoPage1.git
 
 ###  Install Project Dependencies 
 
-#### Navigate to the project folder and install the dependencies:
+##### Navigate to the project folder and install the dependencies:
 
 ```bash
 npm install
 ```
 
-#### Ensure you have Node.js version 22 installed. Verify the installation by running:
+##### Ensure you have Node.js version 22 installed. Verify the installation by running:
 ```bash
    node -v
 ```
-
-#### Navigate to the `server` folder inside project and install the dependencies:
+##### Navigate to the `server` folder inside project and install the dependencies:
 
 ```bash
 cd server
 npm install
 ```
-#### Ensure you have Node.js version 22 installed. Verify the installation by running:
+##### Ensure you have Node.js version 22 installed. Verify the installation by running:
 ```bash
    node -v
 ```
 
-#### Start the NodeJS server:
+##### Start the NodeJS server:
 
 ```bash
 node index.js
