@@ -49,7 +49,7 @@ git clone https://github.com/FahimNSL/frontendTaskFahimSeoPage1.git
 
 ```
 
-###  Install Project Dependencies 
+###  Install Project Dependencies and Run Project
 
 ##### Navigate to the project folder and install the dependencies:
 
