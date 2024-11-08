@@ -21,7 +21,7 @@ mongoose.connect('mongodb+srv://fahim:JDJ0DJrqGtafMFPx@cluster0.oj9ek.mongodb.ne
 
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:5173/' }));  // Explicitly specify the frontend origin
+app.use(cors({ origin: '*' }));  // Explicitly specify the frontend origin
 app.use(express.json());
 
 // Configure upload path
@@ -57,6 +57,9 @@ app.post('/api/attachments/:taskId', upload.array('files'), async (req, res) => 
       size: file.size,
       mimeType: file.mimetype,
     }));
+  
+    
+    
 
     // Save the files to the correct task (taskId)
     const attachments = await Attachment.insertMany(files);
